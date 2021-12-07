@@ -2,12 +2,14 @@ import NewTodo from "./components/NewTodo";
 import Progress from "./components/Progress";
 import Done from "./components/Done";
 import { RecoilRoot } from "recoil";
+import Input from "./components/Input";
 import "./App.css";
 
 function App() {
   return (
     <RecoilRoot>
-      <div>Todo app</div>
+      <div className="styleRoot">Todo app</div>
+      <Input />
       <div className="wrapItem">
         <NewTodo />
         <Progress />

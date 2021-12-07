@@ -1,5 +1,55 @@
+.styleRoot {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px;
+}
 .wrapItem {
   display: flex;
   justify-content: space-around;
   padding: 10px;
+}
+.widthItem {
+  width: 30%;
+  text-align: center;
+  border: 1px solid gray;
+}
+.styleHeader {
+  padding: 10px;
+  background: antiquewhite;
+  font-weight: bold;
+  font-size: 31px;
+}
+.styleJob {
+  padding: 10px;
+  background: lightgreen;
+}
+.btnOpen {
+  width: 80px;
+  height: 30px;
+  background: aquamarine;
+  border-radius: 16px;
+}
+.wrapInput {
+  text-align: center;
+  padding: 10px;
+}
+.inputStyle {
+  border-radius: 10px;
+  width: 21%;
+  height: 26px;
+  margin-right: 10px;
+}
+.inputWrapStyle {
+  padding: 10px;
+}
+.styleStatus {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 4px;
+  margin-left: 5px;
+  background: springgreen;
+}
+.styleItem {
+  cursor: pointer;
 }
